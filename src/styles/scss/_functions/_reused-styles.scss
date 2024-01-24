@@ -1,0 +1,129 @@
+.search-wrapper::before,
+.load-more::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 3px solid $white-color;
+  border-radius: $radius-24;
+  border-inline-end-color: transparent;
+  animation: loading 500ms linear infinite;
+  display: none;
+}
+
+.search-wrapper::before {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+}
+
+.search-wrapper.searching::before { 
+    display: block; 
+}
+
+.load-more {
+  background-color: $primary-variant-color;
+  margin-inline: auto;
+  margin-block: 36px 60px;
+}
+
+.load-more:is(:hover, :focus-visible) {
+  $primary-variant: hsla(350, 67%, 39%, 1);
+}
+
+.load-more.loading::before { 
+    display: block; 
+}
+
+@keyframes loading {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(1turn); }
+}
+
+.heading,
+.title-large,
+.title {
+  font-weight: $weight-bold;
+  letter-spacing: 0.5px;
+}
+
+.title { 
+    font-size: $fs-title; 
+}
+
+.heading {
+  color: $white-color;
+  font-size: $fs-heading;
+  line-height: 1.2;
+}
+
+.title-large { font-size: $fs-title-lg; 
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meta-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn {
+  color: $white-color;
+  font-size: $fs-button;
+  font-weight: $weight-bold;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-block: 12px;
+  padding-inline: 20px 24px;
+  border-radius: $radius-8;
+  transition: $transition-short;
+}
+
+.card-badge {
+  background-color: $banner-background-color;
+  color: $white-color;
+  font-size: $fs-label;
+  font-weight: $weight-bold;
+  padding-inline: 6px;
+  border-radius: $radius-4;
+}
+
+.poster-box {
+  background-image: url('movie_database/assets/img/poster-bg-icon.png');
+  aspect-ratio: 2 / 3;
+}
+
+.poster-box,
+.video-card {
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: $banner-background-color;
+  border-radius: $radius-16;
+  overflow: hidden;
+}
+
+.title-wrapper { 
+    margin-block-end: 24px; 
+}
+
+.slider-list {
+  margin-inline: -20px;
+  overflow-x: overlay;
+  padding-block-end: 16px;
+  margin-block-end: -16px;
+}

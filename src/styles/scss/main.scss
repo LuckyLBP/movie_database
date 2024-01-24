@@ -1,0 +1,15 @@
+/***** MAIN SCSS FILE *****/
+
+// Import of all color and font variables
+@import './_variables/variables';
+
+// Import of all scss files
+@import './_base/base';
+
+// Import of all functions
+@import './_functions/reused-styles';
+@import './_functions/streamingServices';
+
+
+// Import of all index components
+@import './pages/_index/header';

@@ -1,0 +1,56 @@
+/***** COLORS *****/
+
+$background-color: #0f1115;
+$banner-background-color: #313036;
+$white-alpha: #ffffff33;
+$on-background-color: #e5eeff;
+$on-surfaces-color: #eae5ff;
+$on-surfaces-variant-color: #6f6f71;
+
+$primary-color: #db0028;
+$primary-variant-color: #d82c4b;
+$rating-color: #fab700;
+$surface-color: #1a1820;
+$text-color: #959499;
+$white-color: #ffffff;
+
+
+/***** GRADIENT COLORS *****/
+
+$banner-overlay: 90deg, hsl(220, 17%, 7%) 0%, hsla(220, 17%, 7%, 0.5) 100%;
+$bottom-overlay: 180deg, hsla(250, 13%, 11%, 0), hsla(250, 13%, 11%, 1);
+
+/***** TYPOGRAPHY *****/
+
+/* FONT FAMILY */
+$ff-dm-sans: 'DM Sans', sans-serif;
+
+/* FONT SIZE */
+$fs-heading: 4rem;
+$fs-title-lg: 2.6rem;
+$fs-title: 2rem;
+$fs-body: 1.8rem;
+$fs-button: 1.5rem;
+$fs-label: 1.4rem;
+
+/* FONT WEIGHT */
+$weight-bold: 700;
+
+/***** SHADOW *****/
+$shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.75);
+$shadow-2: 0 2px 4px hsla(350, 100%, 43%, 0.3);
+
+/***** BORDER RADIUS *****/
+
+$radius-4: 4px;
+$radius-8: 8px;
+$radius-16: 16px;
+$radius-24: 24px;
+$radius-36: 36px;
+
+/***** TRANSITION *****/
+
+$transition-short: 250ms ease;
+$transition-long: 500ms ease;
+
+
