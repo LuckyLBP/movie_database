@@ -33,8 +33,10 @@ export function createSidebar(): void {
         onclick='getMovieList("with_original_language=se", "Swedish")'>Swedish</a>
     
     </div>
-    
+    <div class="sidebar-footer">
+    <p class="copyright"> Made by <a href="https://github.com/LuckyLBP">LuckyLBP</a></p>
       <img src="assets/img/tmdb-logo.png" width="130" height="17" alt="the movie database logo">
+    </div>
     </div>
   `;
 
