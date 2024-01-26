@@ -22,6 +22,8 @@ $bottom-overlay: 180deg, hsla(250, 13%, 11%, 0), hsla(250, 13%, 11%, 1);
 
 /***** TYPOGRAPHY *****/
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 /* FONT FAMILY */
 $ff-dm-sans: 'DM Sans', sans-serif;
 
@@ -52,5 +54,4 @@ $radius-36: 36px;
 
 $transition-short: 250ms ease;
 $transition-long: 500ms ease;
-
 

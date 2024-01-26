@@ -1,0 +1,48 @@
+/***** SIDEBAR *****/
+
+.sidebar {
+    position: absolute;
+    background-color: $background-color;
+    top: 96px;
+    bottom: 0;
+    left: -340px;
+    max-width: 340px;
+    width: 100%;
+    border-block-start: 1px solid $banner-background-color;
+    overflow-y: overlay;
+    z-index: 4;
+    visibility: hidden;
+    transition: $transition-long;
+
+    &.active {
+        transform: translateX(340px);
+        visibility: visible;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    &:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
+        background-color: $banner-background-color;
+      }
+
+      ::-webkit-scrollbar-button {
+        height: 16px;
+      }
+}
+
+.sidebar-inner {
+    display: grid;
+    gap: 20px;
+    padding-block: 36px;
+}
+
+.sidebar-list,
+.sidebar-footer {
+    padding-inline: 36px;
+}
+
+.sidebar-link {
+    
+}

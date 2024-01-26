@@ -1,0 +1,18 @@
+/***** BANNER *****/
+
+.container {
+    position: relative;
+    background-color: $surface-color;
+    padding: 24px 20px 48px;
+    height: calc(100vh - 80px);
+    overflow-y: overlay;
+    z-index: 1;
+}
+
+.banner {
+    position: relative;
+    height: 700px;
+    border-radius: $radius-24;
+    overflow: hidden;
+}
+

@@ -3,7 +3,7 @@
 // Import of all color and font variables
 @import './_variables/variables';
 
-// Import of all scss files
+// Import of all base scss files
 @import './_base/base';
 
 // Import of all functions
@@ -13,3 +13,9 @@
 
 // Import of all index components
 @import './pages/_index/header';
+@import './pages/_index/sidebar';
+@import './pages/_index/banner';
+
+//Media Queries
+@import './pages/mediaQueries';
+
